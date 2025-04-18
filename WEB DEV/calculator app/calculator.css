@@ -1,0 +1,50 @@
+h1{
+    font-size: 36;
+    font-family: monospace;
+}
+.button {
+    width: 90px;
+    height: 40px;
+    background-color: #a0a0e5;
+    border: 0px;
+    color: #ffffffca;
+    border-radius: 100px;
+  }
+
+  button:hover {
+    background-color: #8282b8;
+  }
+
+  button:active {
+    background-color: #62628b;
+  }
+
+  .flexContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    width: 390px;
+    row-gap: 8px;
+  }
+
+  .displayContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 390px;
+  }
+
+  #display {
+    width: 370px;
+    min-height: 25px;
+    padding: 10px 15px;
+    margin: 10px 0 20px 0;
+    background-color: #eaeaea;
+    border-radius: 8px;
+    font-size: 24px;
+    font-family: monospace;
+    text-align: right;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
